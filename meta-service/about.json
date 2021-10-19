@@ -1,0 +1,31 @@
+{
+  "copyright": "Copyright © Orange 2021",
+  "release_notes": [
+    "Acquired Rights Creation: Search for installed products",
+    "Aggregations: Create aggregation on installed products and not installed products",
+    "Data injection performance improvements",
+    "Use the new release to production without having to clear your cache",
+    "Product detail: Display if product not deployed",
+    "Compliance: Fix for non deployed products",
+    "Alphabetically order the administration menu"
+  ],
+  "future_2021": [
+    "Data injection performance improvement",
+    "Data analysis of inventory before injection",
+    "Manage errors during injection",
+    "Give the choice to use simplified data injection for a scope",
+    "Define acquired rights on aggregations",
+    "Unified product catalog",
+    "Manage multiple parents for one equipment type",
+    "Migrate the platform to DIOD"
+  ],
+  "future_2022": [
+    "Oracle core factor detection",
+    "Oracle processor metric improvements for vm environments (management of vcenter version)",
+    "Oracle processor metric improvements for hard partitioning",
+    "Simulate Oracle license allocation for NUP/processor licensing : to optimize oracle park",
+    "Email generation at account creation",
+    "Email notifications (alerting)",
+    "New products and metrics"
+  ]
+}
