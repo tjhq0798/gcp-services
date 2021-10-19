@@ -172,7 +172,7 @@ parameters:
   value: "512m"
   required: true
 - name: NIFI_JVM_HEAP_MAX
-  description:"Maximum Heap Value"
+  description: "Maximum Heap Value"
   value: "2048m"        
   required: true
 - name: NIFI_TIMEZONE
