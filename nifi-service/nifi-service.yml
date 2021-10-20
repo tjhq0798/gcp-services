@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 spec:
   ports:
-    - name: web
+      name: web
       port: 8080
       targetPort: 8080
     selector:
