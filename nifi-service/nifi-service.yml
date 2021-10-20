@@ -6,7 +6,7 @@ metadata:
     app: nginx
 spec:
   ports:
-  - nodePort: 30500
+ # - nodePort: 30500
     port: 80
     protocol: TCP
     targetPort: 80
