@@ -1,15 +1,12 @@
-kind: Service
-apiVersion: v1
-spec:
-  ports:
-      name: web
-      port: 8080
-      targetPort: 8080
-    selector:
-      app: optisam-nifi
+apiVersion: apps/v1
+kind: Deployment
 metadata:
-  name: svc-optisam-nifi
-  labels:
-  	run: optisam-nifi
-  annotations:
-  	description: The web server's http port.
+  name: optisam-nifi
+spec:
+  replicas: 1
+  template:
+    metadata:
+          spec:
+      containers:
+      - name: gitea-container
+        image: gitea/gitea:1.4
