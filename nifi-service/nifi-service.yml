@@ -1,5 +1,5 @@
 kind: Template
-apiVersion: v1
+apiVersion: apps/v1
 metadata:
   name: nifi-flow
   annotations:
